@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bballpage3.css">
+    <title>Tell me your fave player!</title>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html"> Home</a>
+    <a href="bballpage2.html"> News</a>
+    <a href="bballpage3.html"> Contact</a>
+</div>
+
+<h1>Send over any basketball related news/videos and i will pick my favourite to post each week!</h1>
+<br>
+<br>
+<div class="container">
+    <form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="country">Location</label>
+    <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="europe">Europe</option>
+        <option value="asia">Asia</option>
+        <option value="africa">Africa</option>
+    </select>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>
